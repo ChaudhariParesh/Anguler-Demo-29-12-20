@@ -1,0 +1,18 @@
+<h1>Text Box Demo</h1>
+<hr>
+<input type="text" #box>
+<br><br>
+<button (click)="Paresh(box.value)">ans</button>
+<br><br>
+<h2>{{nm}}</h2>
+
+<hr>
+
+<input type="text" (keyup)="Paresh1($event.target.value)">
+<br><br> 
+<br><br>
+<h2>{{pc}}</h2>
+<hr>
+<br><br>
+<a routerLink="/">Home</a>
+<a routerLink="/shop">Shopping</a>
